@@ -1,0 +1,230 @@
+/***************************** ここからヘッダー ************************/
+header {
+  padding: 10px;
+  border-bottom: 1px solid #D8D8D8;
+  background-color: #FFFEF6;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  margin: -70px 0;
+}
+
+.header__bar {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.header-logo a:hover{
+  color: #8AC75A;
+}
+
+.header-right {
+  padding: 8px 20px;
+  font-size: 18px;
+  border: 3px dotted white;
+  background-color: #602D1D;
+  box-shadow: 0px 0px 0px 5px #602D1D;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.header-right a {
+  color: white;
+}
+
+.header-right:hover {
+  border-color: #616B07;
+  background-color: #616B07;
+  color: white;
+}
+
+.header-right a:hover {
+  color: white;
+}
+
+/***************************** ここからトップメッセージ *******************/
+.top-message {
+  position: relative;
+}
+
+.top-message-first {
+  position: absolute;
+  color: white;
+  top: 20px;
+  left: 30px;
+  font-weight: bold;
+  font-size: 5em;
+  font-family :Quicksand, sans-serif;
+  opacity: 0.8;
+}
+
+.top-message-first span {
+  color: lightpink;
+}
+
+.top-message-second {
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 40px;
+  font-weight: bold;
+  font-size: 5em;
+  font-family :Quicksand, sans-serif;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.top-message-second span {
+  color: lightsalmon;
+}
+
+.top-message-third {
+  position: absolute;
+  color: white;
+  top: 820px;
+  left: 100px;
+  font-weight: bold;
+  font-size: 2em;
+  color: lightyellow;
+  font-family :Quicksand, sans-serif;
+  opacity: 0.5;
+}
+
+.top-message img {
+  width: 100%;
+}
+
+/***************************** ここからミドルメッセージ *****************/
+.middle-message {
+  background-color: #F3ECD8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 120px;
+}
+
+.middle-message img {
+  height: 200px;
+  width: 300px;
+  margin: 200px 50px 0 50px;
+}
+
+.middle-message p {
+  text-align: center;
+  color: #6B4A2B;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+
+.middle-message span {
+  color: lightskyblue;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/***************************** ここからボトムメッセージ *****************/
+.bottom-message {
+  text-align: center;
+}
+
+.bottom-message img {
+  width: 100%;
+}
+
+/***************************** ここから投稿一覧 ************************/
+.contents-lists {
+  text-align: center;
+  font-size: 40px;
+  padding: 50px;
+  background-color: #E6D2C9;
+  font-family: HiraginoSans-W0;
+}
+
+.contents-list {
+  padding: 30px;
+  position: relative;
+  height: 400px;
+  width: 500px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(41, 41, 41, 0.2);
+  margin: 20px auto;
+  border: 10px solid #fff;
+  border-bottom: 100px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+}
+
+.contents-list:hover {
+  -webkit-box-shadow: 6px 6px 6px #777;
+  -moz-box-shadow: 6px 6px 6px #777;
+  box-shadow: 6px 6px 6px #777;
+  transform: scale(1.25);
+  z-index: 2;
+}
+
+.contents-list p {
+  position: absolute;
+  left: 0px;
+  bottom: -95px;
+  text-align: center;
+  width: 100%;
+  font-family: HiraginoSans-W0;
+  font-size: 30px;
+  color: gray;
+}
+
+.name {
+  position: absolute;
+  right: 20px;
+  bottom: -90px;
+  font-size: 13px;
+}
+
+/* .name a {
+  display: block;
+  color: #aaa;
+} */
+
+/* .name a:hover {
+  text-decoration: underline;
+  color: #aaa;
+} */
+
+.name span {
+  font-size: 9px;
+  display: block;
+}
+
+/***************************** ここからフッター ************************/
+footer {
+  margin: 30px auto;
+  padding: 10px 30px;
+  color: #BC9C78;
+  background-color: white;
+}
+
+.footer-first {
+  font-size: 20px;
+  text-align: right;
+}
+
+.footer-second {
+  text-align: right;
+}
+
+.footer-third {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}

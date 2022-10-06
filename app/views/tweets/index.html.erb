@@ -1,0 +1,44 @@
+<%############################## トップメッセージ ###########################%>
+<div class="top-message">
+  <img src="https://st.depositphotos.com/1080148/3390/i/600/depositphotos_33900591-stock-photo-elderly-couple-in-nature.jpg" />
+  <p class="top-message-first">あなた<span>を</span>ささえる</p>
+  <p class="top-message-second">あなた<span>が</span>ささえる</p>
+  <p class="top-message-third">SupportTalkとは
+  <br>
+    誰でも簡単に写真とメッセージを投稿できるアプリケーションです
+  </p>
+</div>
+
+<%############################## ミドルメッセージ ###########################%>
+<div class ="middle-message">
+  <div class="content">
+    <img src="https://thumb.photo-ac.com/12/12d18208de5c1ccf4a1d8294bd754689_t.jpeg">
+    <p>簡単に<span>投稿</span>できる！</p>
+  </div>
+  <div class="content">
+    <img src="https://i1.wp.com/jibunsagashi-travel.com/wp-content/uploads/2020/11/AdobeStock_74119053.jpeg?fit=1024%2C683&ssl=1">
+    <p>思いを<span>共有</span>できる！</p>
+  </div>
+  <div class="content">
+    <img src="https://www.consultsourcing.jp/cms/wp-content/uploads/2020/10/monda_hakken201002.jpg">
+    <p>新たな<span>発見</span>ができる！</p>
+  </div>
+</div>
+
+<%############################## ボトムメッセージ ###########################%>
+<div class="bottom-message">
+  <img src="https://i.gyazo.com/83fcb7dc4ef0ea550c023cdfe69aeaa9.jpg">
+</div>
+
+<%############################## 投稿一覧 ##################################%>
+<div class="contents-lists">
+  投稿一覧
+  <% @tweets.each do |tweet| %>
+    <div class="contents-list" style="background-image: url(<%= tweet.image %>);">
+      <p><%= tweet.text %></p>
+      <span class="name">
+        by  <%= tweet.name %>
+      </span>
+    </div>
+  <% end %>
+</div>

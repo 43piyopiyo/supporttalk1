@@ -4,12 +4,25 @@
     <title>Supporttalk</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link href="index.css" rel="stylesheet">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
-  </body>
+  <header>
+    <div class="header__bar">
+      <h1 class="header-logo"><a href="/"> SupportTalk</a></h1>
+      <div class="header-right">
+        <a class="post" href="/tweets/new">投稿する</a>
+      </div>
+    </div>
+  </header>
+  <%= yield %>
+  <footer>
+    <p class="footer-first">SipportTalkについて</p>
+    <p class="footer-second">会社概要（運営会社）</p>
+    <p class="footer-second">プライバシーポリシー</p>
+    <p class="footer-second">SupportTalk利用規約</p>
+    <p class="footer-third">Copyright SupportTalk 2022.</p>
+  </footer>
 </html>
