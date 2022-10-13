@@ -72,7 +72,7 @@ _____今後実装予定
 
 # 画面遷移図
 
-_____今後作成予定  
+[![Image from Gyazo](https://i.gyazo.com/9c3c168ca69e3259ec103368f652e3bd.png)](https://gyazo.com/9c3c168ca69e3259ec103368f652e3bd)  
 
 
 # 開発環境
