@@ -67,7 +67,7 @@ _____今後実装予定
 
 # データベース設計
 
-supporttalk.png  
+https://i.gyazo.com/bde3c52037c5fc55447ea67b571676f1.png  
 
 
 # 画面遷移図
