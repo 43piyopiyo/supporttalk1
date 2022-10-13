@@ -48,7 +48,7 @@ _____今後ユーザー機能実装予定
 
 # 洗い出した要件
 
-_____要件定義書  
+https://docs.google.com/spreadsheets/d/1Scl7ahtOjDz8CmmDENFtuyRRt272ub8N1BZwYlaVjZI/edit#gid=278226023  
 
 
 # 実装した機能についての画像やGIF及びその説明
