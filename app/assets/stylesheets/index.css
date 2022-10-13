@@ -235,10 +235,6 @@ header {
   border-radius: 3px;
 }
 
-.more_list:hover {
-  background-color: #576128;
-}
-
 div.contents.row div.content_post .more ul.more_list li:last-child {
   border-bottom: 0;
 }
@@ -250,7 +246,8 @@ div.contents.row div.content_post .more ul.more_list li:last-child {
 }
 
 .more_list a:hover {
-  color: white;
+  color: #576128;
+  font-weight: bold;
 }
 
 /***************************** ここからフッター ************************/
