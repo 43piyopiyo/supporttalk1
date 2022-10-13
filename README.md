@@ -68,7 +68,7 @@ _____今後実装予定
 
 # データベース設計
 
-[![Image from Gyazo](https://i.gyazo.com/1ca2c6897cd562cbc8de2ce807d7c8d5.png)](https://gyazo.com/1ca2c6897cd562cbc8de2ce807d7c8d5)  
+[![Image from Gyazo](https://i.gyazo.com/b2ef232ef542c3f1ed306182082c1e77.png)](https://gyazo.com/b2ef232ef542c3f1ed306182082c1e77)  
 
 
 # 画面遷移図
