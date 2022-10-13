@@ -25,8 +25,9 @@ header {
   color: #8AC75A;
 }
 
-.header-right {
+.post,.logout {
   padding: 8px 20px;
+  margin-left: 10px;
   font-size: 18px;
   border: 3px dotted white;
   background-color: #602D1D;
@@ -41,7 +42,14 @@ header {
   color: white;
 }
 
-.header-right:hover {
+.post:hover {
+  background-color: #BA8D65;
+  color: white;
+  border: 3px dotted white;
+  box-shadow: 0px 0px 0px 5px #BA8D65;
+}
+
+.logout:hover {
   background-color: #BA8D65;
   color: white;
   border: 3px dotted white;
